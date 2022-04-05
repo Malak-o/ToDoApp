@@ -1,7 +1,8 @@
 class App {
     constructor(
-        manufacturer: string, 
-        model: string, 
+        public taskTitle: string, 
+        public done: boolean,
+        public deadline: Date,
         
         ) {
     }
