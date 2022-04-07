@@ -12,10 +12,20 @@
         <script src="ts/main.ts" defer type="module"></script>
     </head>
     <body>
-        <div class="container">
-            <h1 class="display1">To-do List</h1>
-            <input class="text-center border-primary" id="newTaskInput" type="text" name="newtask" placeholder="Write your task here...">
-            <button class="position-fixed border-secondary" type="button" id="taskField">Add new task</button>
+        <div class="container App mx-auto">
+            <div class="text-center m-3">
+                <h2>THE TO-DO APP</h2>
+
+            <form class="style style-inline justify-content-center" action="index.html" method="text" id="To-doApp">
+            <div class="style-group mx-2">
+                <input type="text" name="ToDo" value="" placeholder="Add new task..." id="thingname" class="style.control" autofocus>
+                <button id="add-button" class="btn btn-primary">Enter</button>
+            </form>
+            </div>
         </div>
+            </div>
+        </div>
+        <h2 class="text-center">FINISHED TASKS</h2>
+        <ul class="text-center" id="TodoList"></ul>
     </body>
 </html> 
